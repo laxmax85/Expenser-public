@@ -23,7 +23,7 @@
     <div class="max-w-7xl mx-auto sm:px-6 lg:px-8 space-y-6">
         <!-- create a new Category -->
         <button x-data x-on:click="$dispatch('open-modal', {name: 'newCategory'})"
-            class="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600 transition duration-300">
+            class="w-full py-2 bg-purple-500 text-white font-semibold rounded-lg shadow hover:bg-purple-600 transition duration-300">
             Add new Category
         </button>
 
